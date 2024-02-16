@@ -18,3 +18,4 @@ To create a controller using the CLI, simply execute the ``` $ nest g controller
 **Providers**
 ---
 A provider is an object that provides an instance of a service to other application components
+Providers are created through classes that have the ```@Injectable()``` decorator and are registered in modules through the ```providers``` method.
