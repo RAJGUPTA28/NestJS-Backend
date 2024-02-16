@@ -19,3 +19,12 @@ To create a controller using the CLI, simply execute the ``` $ nest g controller
 ---
 A provider is an object that provides an instance of a service to other application components
 Providers are created through classes that have the ```@Injectable()``` decorator and are registered in modules through the ```providers``` method.
+
+
+
+
+**Dependency injection in NestJS**
+---
+Dependency injection is a design pattern that allows objects to be created and managed within an application environment. In NestJS, dependency injection is used to provide instances of services to other application components.
+
+To inject a service into an application component, you must use the @Inject() annotation
