@@ -3,4 +3,4 @@ A progressive Node.js framework for building efficient, reliable and scalable se
 
 **Controllers**
 Controllers are responsible for handling incoming requests and returning responses to the client.
-
+``` @Controller() decorator```
