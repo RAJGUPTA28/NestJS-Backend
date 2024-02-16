@@ -14,3 +14,7 @@ $ nest new project-name
 ``` @Controller() decorator```
 
 To create a controller using the CLI, simply execute the ``` $ nest g controller [name] ``` command.
+
+**Providers**
+---
+A provider is an object that provides an instance of a service to other application components
